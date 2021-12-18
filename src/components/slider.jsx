@@ -15,7 +15,7 @@ function slider() {
                 <div className="sliderinfo">
                     <span className='title'>Summer Sale is on</span>
                     <span className='subtitle'>Sail it here</span>
-                    <button className='buttontitle'>Shop Now</button>
+                    <button className='buttontitle'>Shop Now here</button>
                 </div>
             </div>
             
