@@ -1,0 +1,54 @@
+.container{
+    height:60px;
+    background-color:orange;
+    color:white;
+}
+
+.wrapper{
+    padding:20px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+
+.right >span{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.left{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    width: 300px;
+    padding: 5px;
+    font-size:15px ;
+    
+}
+
+.search >input{
+    border-radius: 10px;
+    border:none;
+    width: 300px;
+    margin-left: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+
+
+.Icons{
+    
+    text-align: center;
+    margin-left: 1px;
+    
+    
+}
