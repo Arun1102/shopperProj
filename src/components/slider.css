@@ -1,103 +1,52 @@
 .slider{
+    display: flex;
     width: 100%;
-    height: 85vh; 
     background-color: black;
-    display: flex;
+    height: calc(100%-90px);
+    margin: 0;
     position: relative;
-}
-
-.icon-right{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #DAA520;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    right: 0;
-    margin-right: 10px;
-    cursor: pointer;
-    opacity: 0.5;
     
 
 }
 
-.icon-left{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #DAA520;
-    text-align: center;
+.sliderhold{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    margin-left: 10px;
-    cursor: pointer;
-    opacity: 0.5;
+    width: 100%;
+    transform: translateX(-105vw);
 }
 
-.icon-left:hover{
-    opacity: 1;
-}
-
-.icon-right:hover{
-    opacity: 1;
-}
-
-.arrocss{
-    color: white;
-}
-
-.sliderbg{
-    display: flex;
-    background-color: white;
-}
-
-.sliderimg{
-    flex: 1;
+.imageslider{
+    width: 50%;
+    height: 85vh;
     
 }
 
 .sliderinfo{
-    flex: 1;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    color: white;
+    text-align: center;
+    background-color: chocolate;
+    width: 50%;
     
+    padding-top: 250px;
+    padding-left:220px;
+    padding-right: 220px;
+}
+.sliderinfo > h1,h3{
+    
+    width: 200px;
+    /* background-color: yellow; */
+    text-align: left;
+    padding:10px;
+   
 }
 
 
-
-.sliderimg img{
-    width: 100%;
-    height: 85vh;
+.arrocss{
+    color: white;
+    margin-top: 250px;
+    margin-bottom: 250px;
 }
-
-.title{
-    font-size: 50px;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.subtitle{
-    font-size: 30px;
-}
-
-.buttontitle{
-    width: 100px;
-    height: 20px;
-    border-radius: 10px;
-    border: none;
-    background-color:khaki;
-    margin: 20px;
+.arrocss:hover{
+    color: orange;
+    cursor:pointer;
 }
